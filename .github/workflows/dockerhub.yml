@@ -39,4 +39,4 @@ jobs:
           DOCKER_USER: ${{ secrets.DOCKERHUB_USERNAME }}
           DOCKER_PASS: ${{ secrets.DOCKERHUB_PASSWORD }}
         with:
-          destination_container_repo: krutyi4el/dandelion-music
+          destination_container_repo: derpasi/dandelionmusicbot
