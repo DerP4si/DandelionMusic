@@ -208,7 +208,7 @@ class AudioController(object):
         view.add_item(queue_button)
 
         stop_button = MusicButton(
-            lambda _: self.stop_player(),
+            lambda _: self.udisconnect(),
             row=1,
             emoji="⏹️",
             style=discord.ButtonStyle.red,
